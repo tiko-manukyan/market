@@ -1,0 +1,11 @@
+.logo {
+  font-size: 50px;
+  font-style: italic;
+  span:first-child {
+    color: #fff
+  }
+  span:last-child {
+    text-decoration: underline;
+    color: #f7c64c;
+  }
+}

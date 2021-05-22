@@ -1,0 +1,10 @@
+@import "../../../assets/styles/variables";
+
+nav {
+  background-color: $main-color !important;
+
+  .navbar-nav a {
+    color: #fff;
+  }
+}
+
