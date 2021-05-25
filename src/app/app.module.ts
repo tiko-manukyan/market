@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './header/search/search.component';
 import { AccountLinksComponent } from './header/account-links/account-links.component';
 import { NavComponent } from './header/nav/nav.component';
+import { CenralContentComponent } from './cenral-content/cenral-content.component';
+import { MainShopListComponent } from './main-shop-list/main-shop-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NavComponent } from './header/nav/nav.component';
     HeaderComponent,
     SearchComponent,
     AccountLinksComponent,
-    NavComponent
+    NavComponent,
+    CenralContentComponent,
+    MainShopListComponent
   ],
   imports: [
     BrowserModule,
