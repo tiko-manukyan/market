@@ -10,6 +10,9 @@ import { AccountLinksComponent } from './header/account-links/account-links.comp
 import { NavComponent } from './header/nav/nav.component';
 import { CenralContentComponent } from './cenral-content/cenral-content.component';
 import { MainShopListComponent } from './main-shop-list/main-shop-list.component';
+import { CategoriesShopComponent } from './categories-shop/categories-shop.component';
+import { NewAppliancesComponent } from './new-appliances/new-appliances.component';
+import { AboutHomeComponent } from './about-home/about-home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { MainShopListComponent } from './main-shop-list/main-shop-list.component
     AccountLinksComponent,
     NavComponent,
     CenralContentComponent,
-    MainShopListComponent
+    MainShopListComponent,
+    CategoriesShopComponent,
+    NewAppliancesComponent,
+    AboutHomeComponent
   ],
   imports: [
     BrowserModule,
