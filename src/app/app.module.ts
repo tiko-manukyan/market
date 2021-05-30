@@ -13,6 +13,7 @@ import { MainShopListComponent } from './main-shop-list/main-shop-list.component
 import { CategoriesShopComponent } from './categories-shop/categories-shop.component';
 import { NewAppliancesComponent } from './new-appliances/new-appliances.component';
 import { AboutHomeComponent } from './about-home/about-home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AboutHomeComponent } from './about-home/about-home.component';
     MainShopListComponent,
     CategoriesShopComponent,
     NewAppliancesComponent,
-    AboutHomeComponent
+    AboutHomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
